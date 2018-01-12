@@ -140,7 +140,7 @@ class IsolationPlayer:
         self.TIMER_THRESHOLD = timeout
 
 class MinimaxPlayer(IsolationPlayer):
-	"""Game-playing agent that chooses a move using depth-limited minimax
+    """Game-playing agent that chooses a move using depth-limited minimax
     search. You must finish and test this player to make sure it properly uses
     minimax to return a good move before the search time limit expires.
     """
@@ -331,7 +331,7 @@ class AlphaBetaPlayer(IsolationPlayer):
         return v
 
     def alphabeta(self, game, depth, alpha=float("-inf"), beta=float("inf")):
-       """Implement depth-limited minimax search with alpha-beta pruning as
+        """"Implement depth-limited minimax search with alpha-beta pruning as
         described in the lectures.
         This should be a modified version of ALPHA-BETA-SEARCH in the AIMA text
         https://github.com/aimacode/aima-pseudocode/blob/master/md/Alpha-Beta-Search.md
